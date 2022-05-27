@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>HTML Semantics</title>
+  </head>
+  <body>
+    <header>
+      <h3>Quiz on Important Facts</h3>
+    </header>
+    <main>
+      <p>Which one of these is a JavaScript package manager?</p>
+      <div class="choices">
+        <div>
+          <label for="nodejs"
+            ><input
+              type="radio"
+              name="package_manager"
+              id="node.js"
+              value="a : Node.js"
+            /><span>a : Node.js</span> </label
+          ><br />
+
+          <label for="typescript"
+            ><input
+              type="radio"
+              name="package_manager"
+              id="typescript"
+              value="b : TypeScript"
+            /><span>b : TypeScript</span> </label
+          ><br />
+
+          <label for="npm">
+            <input
+              type="radio"
+              name="package_manager"
+              id="npm"
+              value="c : npm"
+              checked
+            /><span>c : npm</span></label
+          >
+        </div>
+      </div>
+
+      <br />
+      <div class="button">
+        <button>Previous Question</button>
+        <button>Next Question</button>
+      </div>
+
+      <hr />
+    </main>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(192,192,255,0.7));
+    color: black;
+    margin: 0 20%;
+}
+header{
+    text-align: center;
+    
+}
+#image{
+    height: 200px;
+    width: 200px;
+    margin: auto auto;
+    display: block;
+    
+    
+}
+figcaption{
+    text-align: center;
+}
+
+figure{
+    
+    padding: 10px;
+    margin: 0;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+  
+  li {
+    margin: 16px 0;
+  }
+h3{
+    margin: 50px 0;
+    text-align: center;
+  }
+
+  blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    
+  }
+
+  a {
+    color: #588db8;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #85749e;
+  }
