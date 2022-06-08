@@ -55,7 +55,7 @@ while True:
     else:
         print("Invalid input")
 
-    choice = input("Would you like to truy another operation? [y, n] ")
+    choice = input("Would you like to try another operation? [y, n] ")
     if choice == 'y':
         continue
     if choice == 'n':
