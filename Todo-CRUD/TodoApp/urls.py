@@ -9,5 +9,6 @@ urlpatterns = [
     path('detail/<pk>', TodoAppDetailView.as_view()),
     path('edit/<pk>', TodoAppUpdateView.as_view()),
     path('delete/<pk>', TodoAppDeleteView.as_view()),
-    # path('list/delete', TodoAppDeleteView.as_view())
+
+
 ]
