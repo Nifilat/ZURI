@@ -1,0 +1,19 @@
+<ul>
+  <!-- iterate over object_list -->
+  {% for object in object_list %}
+  <!-- Display objects -->
+  <li>{{ object.title }}</li>
+  <li>{{ object.description }}</li>
+
+  <!-- <form method="post" action="delete">
+    {% csrf_token %}
+
+    <input type="submit" value="Delete" />
+  </form> -->
+
+  <hr />
+  <!-- if object_list is empty -->
+  {% empty %}
+  <li>No objects yet.</li>
+  {% endfor %}
+</ul>
